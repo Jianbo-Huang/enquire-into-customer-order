@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}Python list operations{% endblock %}</title>
+  </head>
+  <body>
+    <header>
+      <h2>Some Python list operations </h2>
+        <p>
+       <a href="http://localhost:5000/total" ><b> Get total sum of a list[0:10000000]</a></b>
+       </p>
+       <p>
+      <a href="http://localhost:5000/total_order" > <b> Get total  customer orders</a></b>
+      </p>
+      <p>
+      <a href="http://localhost:5000/average_order" > <b> Get average customer orders</a></b>
+      </p>
+      <p>
+      <a href="http://localhost:5000/max_order" > <b> Get maximum customer orders</a></b>
+      </p>
+       <p>
+      <a href="http://localhost:5000/top10_order" > <b> Get a list of top 10 orders</a></b>
+      </p>
+         <p>
+      <a href="http://localhost:5000/top10_customer" > <b> Get a list of 10 customer id with top orders</a></b>
+      </p>
+      <p>
+         <form action="http://localhost:5000/higher_order" method="POST">
+         <h3>
+         Number of customers with order >=:  <input type="text" name="value"  size="12" placeholder="type a number"  required>
+     
+      <input type="submit" value="Submit" style="font-size : 20px;border-style:none;background-color:lightblue"/>
+       </h3>
+      </p>
+
+ 
+      
+    </header>
+  
+  </body>
+</html>
